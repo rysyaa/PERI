@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+    .section4__topBlock{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .section2__blockImg{
+        justify-content: center;
+        gap: 4rem;
+    }
+    .section1__topBlock{
+        justify-content: center;
+    }
+}
