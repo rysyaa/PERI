@@ -16,13 +16,32 @@
     #sec4__photo{
         width: 140px;
     }
+    .header__right{
+        display: none;
+    }
+    .header__logo{
+        width: 140px;
+    }
+    .section1__topBlock img{
+        width: 90vw;
+    }
+    .section2__blockImg img{
+        width: 60vw;
+    }
+    .section5__topBlock{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .section5__topBlock img{
+        width: 50vw;
+    }
+    .section5__topBlock img:last-child{
+        display: none;
+    }
 }
 @media screen and (max-width: 547px) {
     html{
         font-size: 8px;
-    }
-    .header__right{
-        display: none;
     }
     .header__container{
         justify-content: center;
