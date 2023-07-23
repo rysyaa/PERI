@@ -33,6 +33,11 @@ header {
   font-size: 1.4rem;
   color: #4b0057;
 }
+.header__link{
+    display: flex;
+    gap: 6rem;
+    flex-wrap: wrap;
+}
 .header__right {
   width: 6vw;
 }
@@ -171,6 +176,15 @@ header {
   line-height: 3.4rem;
   margin-top: 60px;
 }
+.section4__textPeople2{
+    display: none;
+}
+.section4__textPeople3{
+    display: none;
+}
+.section4__textPeople4{
+    display: none;
+}
 .section4__container {
   width: 87vw;
   margin: 0 auto;
@@ -243,6 +257,11 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.footer__topBlock_social{
+    display: flex;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 .footer__topBlock_info{

@@ -13,4 +13,45 @@
     .section1__topBlock{
         justify-content: center;
     }
+    #sec4__photo{
+        width: 140px;
+    }
+}
+@media screen and (max-width: 547px) {
+    html{
+        font-size: 8px;
+    }
+    .header__right{
+        display: none;
+    }
+    .header__container{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .footer__topBlock_social{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer__topBlock{
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 470px) {
+    .header__link{
+        gap: 1rem;
+    }
+    #sec4__photo{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .footer__logo{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 506px) {
+        .footer__topBlock_social{
+            justify-content: end;
+        }
 }
