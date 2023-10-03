@@ -39,7 +39,11 @@
         display: none;
     }
     .background-video{
-        width: fit-content;
+        /* width: fit-content; */
+        height: fit-content;
+    }
+    .screensaver__video_text h2{
+        display: none;
     }
 }
 @media screen and (max-width: 547px) {
