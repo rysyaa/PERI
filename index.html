@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/mainMedia.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>PERI</title>
   </head>
   <body>
@@ -21,6 +20,19 @@
         <img src="./imgPeri/header-right.png" alt="" class="header__right" />
       </div>
     </header>
+    <section class="screensaver">
+      <div class="screensaver__container">
+        <div class="video-container">
+          <video class="background-video" autoplay loop muted>
+            <source src="./video/nails_-_121293 (Original).mp4">
+          </video>
+          <div class="video-overlay"></div>
+          <div class="screensaver__video_text">
+            <h2>Цена и качество <br> на высшем уровне!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section1">
       <div class="section1__container">
         <div class="section1__topBlock">
@@ -32,9 +44,7 @@
           <img src="./imgPeri/section1.png" alt="" />
         </div>
         <p>
-          Здесь вы сможете открыть для себя мир косметики и ухода, <br />
-          представленный в широком ассортименте продуктов высокого <br />
-          качества.
+          Мы готовы сделать ваш взгляд ещё более привлекательным <br> и выразительным. Доверьтесь нашим профессионалам <br> и наслаждайтесь результатом!
         </p>
       </div>
       <div class="line"></div>
@@ -43,15 +53,15 @@
       <div class="section2__container">
         <h3 id="section2">Процесс работы</h3>
         <div class="section2__blockImg">
-          <div data-aos="fade-up" class="section2__blockImg_category">
+          <div class="section2__blockImg_category">
             <img src="./imgPeri/section2-photo1.png" alt="" />
             <h6>Шугаринг</h6>
           </div>
-          <div data-aos="fade-up" class="section2__blockImg_category">
+          <div class="section2__blockImg_category">
             <img src="./imgPeri/section2-photo2.png" alt="" />
             <h6>Маникюр</h6>
           </div>
-          <div data-aos="fade-up" class="section2__blockImg_category">
+          <div class="section2__blockImg_category">
             <img src="./imgPeri/section2-photo3.png" alt="" />
             <h6>Перманент</h6>
           </div>
@@ -61,13 +71,7 @@
           красками. Мастер подбирает форму и цвет бровей <br />
           под вашу форму лица учитывая предпочтения клиента
         </p>
-        <div class="section2__bottomBlock">
-          <div class="section2__bottomBlock_arrow">
-            <span>Узнать про все услуги</span>
-            <img src="./imgPeri/Arrow 1.png" alt="" />
-          </div>
-          <button class="section2__btn">больше услуг</button>
-        </div>
+        
       </div>
       <div class="line"></div>
     </section>
@@ -75,52 +79,68 @@
       <div class="section3__container">
         <h3 id="section3">Цена</h3>
         <div class="section3__topBlock">
-          <div data-aos="fade-right" class="section3__topBlock_categories">
-            <ul>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
+          <div class="section3__topBlock_categories">
+            <ul class="section3__uslugi">
+              <li>Перманентный макияж бровей</li>
+              <li>Перманентный макияж губ</li>
+              <li>Перманентный макияж стрелки</li>
+              <li>Ламинирование бровей</li>
+              <li>МакЛаминирование ресниц</li>
             </ul>
             <ul class="section3__price">
               <li>1000som</li>
               <li>1000som</li>
               <li>1000som</li>
-              <li>1000som</li>
+              <li>500som</li>
+              <li>500som</li>
+            </ul>
+          </div>
+          <div class="section3__topBlock_categories">
+            <ul class="section3__uslugi">
+              <li>Шугаринг бикини</li>
+              <li>Шугаринг подмышки</li>
+              <li>Шугаринг ноги</li>
+              <li>Шугаринг руки</li>
+              <li>Шугаринг лицо</li>
+            </ul>
+            <ul class="section3__price">
+              <li>500som</li>
+              <li>200som</li>
+              <li>700som</li>
+              <li>500som</li>
+              <li>300som</li>
+            </ul>
+          </div>
+          <div class="section3__topBlock_categories">
+            <ul class="section3__uslugi">
+              <li>Коррекция бровей</li>
+              <li>Покраска бровей</li>
+              <li>Массаж одна зона </li>
+              <li>Маникюр с покрытием</li>
+              <li>Наращивание ногтей</li>
+            </ul>
+            <ul class="section3__price">
+              <li>200som</li>
+              <li>300som</li>
+              <li>500som</li>
+              <li>500som</li>
               <li>1000som</li>
             </ul>
           </div>
-          <div data-aos="fade-up" class="section3__topBlock_categories">
-            <ul>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
+          <div class="section3__topBlock_categories">
+            <ul class="section3__uslugi">
+              <li>Наращивание ресниц классика</li>
+              <li>Наращивание ресниц 2D</li>
+              <li>Наращивание ресниц 3D </li>
+              <li>Наращивание ресниц 4D-5D</li>
+              <li>Макияж, прическа</li>
             </ul>
             <ul class="section3__price">
+              <li>700som</li>
+              <li>800som</li>
               <li>1000som</li>
-              <li>1000som</li>
-              <li>1000som</li>
-              <li>1000som</li>
-              <li>1000som</li>
-            </ul>
-          </div>
-          <div data-aos="fade-left" class="section3__topBlock_categories">
-            <ul>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-              <li>Макияж</li>
-            </ul>
-            <ul class="section3__price">
-              <li>1000som</li>
-              <li>1000som</li>
-              <li>1000som</li>
-              <li>1000som</li>
-              <li>1000som</li>
+              <li>1200som</li>
+              <li>500som</li>
             </ul>
           </div>
         </div>
@@ -137,50 +157,22 @@
       <div class="section4__container">
         <h3 id="section4">Отзывы</h3>
         <div class="section4__topBlock">
-          <img onclick="text1()" id="sec4__photo" data-aos="flip-up" src="./imgPeri/section4-photo1.png" alt="" />
-          <img onclick="text2()" id="sec4__photo" data-aos="flip-up" src="./imgPeri/section4-photo1.png" alt="" />
-          <img onclick="text3()" id="sec4__photo" data-aos="flip-up" src="./imgPeri/section4-photo1.png" alt="" />
-          <img onclick="text4()" id="sec4__photo" data-aos="flip-up" src="./imgPeri/section4-photo1.png" alt="" />
+          <img onclick="text1()" id="sec4__photo" src="https://www.lash-and-brow.ru/upload/medialibrary/89e/lami_lashes4.jpg" alt="" />
+          <img onclick="text2()" id="sec4__photo" src="https://irinakhrustaleva.com/upload/medialibrary/b5f/b5f0fab591582b7b700b6e53d3d04953.jpg" alt="" />
+          <img onclick="text3()" id="sec4__photo" src="https://st28.styapokupayu.ru/ckeditor_assets/pictures/000/497/156_content.jpg" alt="" />
+          <img onclick="text4()" id="sec4__photo" src="https://ladyneeds.ru/wp-content/uploads/2020/09/19-2-721x1080.jpg" alt="" />
         </div>
         <p id="text1__photo" class="section4__textPeople1">
-          "Просто восхищена результатом! Продукты Peri прекрасно подошли <br />
-          моей коже и несомненно стоили своей цены. Наконец-то я нашла <br />
-          косметику, которая делает меня довольной без разорительных <br />
-          расходов. Большое спасибо команде Peri за уникальные продукты и <br />
-          заботу о клиентах!"
+          "Спасибо, Пери, за ваш талант и внимание к деталям. Я обязательно вернусь <br> и буду рекомендовать вас моим подругам!"
         </p>
         <p id="text2__photo" class="section4__textPeople2">
-          "Просто !!!!! восхищена результатом! Продукты Peri прекрасно подошли <br />
-          моей коже и несомненно стоили своей цены. Наконец-то я нашла <br />
-          косметику, которая делает меня довольной без разорительных <br />
-          расходов. Большое спасибо команде Peri за уникальные продукты и <br />
-          заботу о клиентах!"
+          "Спасибо за вашу доброжелательность и профессионализм. Я не могу дождаться <br> следующего визита!"
         </p>
         <p id="text3__photo" class="section4__textPeople3">
-          "Просто восхищена результатом! Продукты Peri прекрасно подошли <br />
-          моей коже и несомненно!"
+          "Я хочу выразить глубокую признательность за вашу невероятную работу в <br> салоне. Ваши мастерские навыки и внимание к мелочам создали удивительный результат."
         </p>
         <p id="text4__photo" class="section4__textPeople4">
-          "Просто восхищена результатом!"
-        </p>
-      </div>
-      <div class="line"></div>
-    </section>
-    <section class="section5">
-      <div class="section5__container">
-        <h3 id="section5">Атмосфера</h3>
-        <div class="section5__topBlock">
-          <img data-aos="fade-up-right" src="./imgPeri/section5.png" alt="" />
-          <img data-aos="fade-up-left" src="./imgPeri/section5.png" alt="" />
-          <img data-aos="fade-up-right" src="./imgPeri/section5.png" alt="" />
-        </div>
-        <p>
-          Атмосфера нашего заведения пронизана теплотой и гостеприимством.
-          <br />
-          Мы создаем уютное и приятное окружение, чтобы каждый клиент <br />
-          чувствовал себя как дома. Наша команда заботится о каждой детали,
-          <br />
-          чтобы обеспечить комфорт и расслабление на протяжении всего визита.
+          "Спасибо за то, что делаете мир более красивым местом, и за вашу доброжелательность. Вы - настоящий профессионал!"
         </p>
       </div>
       <div class="line"></div>
@@ -192,15 +184,15 @@
           <div class="footer__topBlock_social">
             <div class="footer__topBlock_info">
               <img src="./imgPeri/phone.png" alt="" />
-              <span>+996755555555</span>
+              <a href="tel:+996755752752">+996755555555</a>
             </div>
             <div class="footer__topBlock_info">
               <img src="./imgPeri/inst.png" alt="" />
-              <a>instagramm</a>
+              <a href="https://www.instagram.com/peribeautysfera/">instagramm</a>
             </div>
             <div class="footer__topBlock_info">
-              <img src="./imgPeri/tiktok.png" alt="" />
-              <a>tiktok</a>
+              <img src="./imgPeri/free-icon-whatsapp-1384023.png" alt="" />
+              <a href="https://wa.me/996755752752?text=Здравствуйте%20Пери%20я%20хотела%20бы%20записаться!">Whatsapp</a>
             </div>
           </div>
         </div>
@@ -210,9 +202,5 @@
     </footer>
 
     <script src="./index.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

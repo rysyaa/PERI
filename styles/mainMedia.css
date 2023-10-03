@@ -38,6 +38,9 @@
     .section5__topBlock img:last-child{
         display: none;
     }
+    .background-video{
+        width: fit-content;
+    }
 }
 @media screen and (max-width: 547px) {
     html{
