@@ -275,6 +275,7 @@ footer{
 }
 .footer__topBlock_info span, a{
     font-size: 1.4rem;
+    border-bottom: 1px solid #4b0057;
 }
 .footer__topBlock_info img{
     width: 2vw;
